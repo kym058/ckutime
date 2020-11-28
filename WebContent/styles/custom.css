@@ -1,0 +1,48 @@
+/* 전체 홈페이지의 폰트 세팅 */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+a:link, a:visited, a:hover {
+	text-decoration: none;
+	color: black;
+}
+* {
+	font-family : 'Nanum Gothic';
+}
+h5 {
+	font-family : 'Noto Sans KR';
+}
+h4 {
+	font-family : 'Hanna';
+}
+h3 {
+	font-family : 'Hanna';
+}
+h2 {
+	font-family : 'Hanna';
+}
+h1 {
+	font-family : 'Hanna';
+}
+	th {
+		font-size: 15px;
+	}
+	td {
+		font-size: 15px;
+	}
+@media (max-width: 767px) {
+	th {
+		font-size: 12px;
+	}
+	td {
+		font-size: 12px;
+	}
+}
+@media (max-width: 500px) {
+	th {
+		font-size: 9px;
+	}
+	td {
+		font-size: 9px;
+	}
+}
